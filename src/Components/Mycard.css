@@ -1,0 +1,51 @@
+/* .mycard{
+    min-width:300px;
+    max-width: 300px;
+    height: 400px;
+    background-color:black;
+    margin:10px;
+    color:white;
+} */
+/* line1-8 css ra only card paai sethi pai comment out krideichi */
+
+/* Mycard.css (or your CSS file for Mycard) */
+
+/* Mycard.css (or your CSS file for Mycard) */
+
+/* Mycard.css (or your CSS file for Mycard) */
+
+.mycard {
+    width: 100%;
+    max-width: 300px;
+    /* Adjust the max-width as needed */
+    height: 400px;
+    /* Set a fixed height for the card container */
+    background-color: #fff;
+    /* Background color for the card */
+    border: 1px solid #ddd;
+    /* Border for the card */
+    border-radius: 8px;
+    /* Border radius for rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Box shadow for a subtle elevation effect */
+    overflow: hidden;
+    /* Hide overflowing content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mycard img {
+    max-width: 100%;
+    max-height: 100%;
+    /* Set a max-height for the image within the card */
+    object-fit: contain;
+    /* Maintain aspect ratio and cover the entire space */
+}
+
+.mycard .description {
+    padding: 10px;
+    text-align: center;
+}
+

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.footer {
+    background-color: #00672A;
+    padding: 20px;
+    width: 1511px;
+    height: 539px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-section {
+    flex: 0 0 331px;
+    height: 331px;
+    margin-left: 80px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.social-links {
+    align-items: center;
+    text-align: center;
+}
+
+.social-links p {
+    margin: 5px 0;
+}
+
+
+
+.social-text {
+    color: yellow;
+    font-weight: bold;
+    margin-left:10px;
+}
+
+
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-info i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 14px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.view-on-map {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: yellow;
+}
+
+.view-on-map:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    position: relative;
+     top: 450px; 
+    /* Adjust the value to control vertical placement */
+    right: 320px; 
+    /* Adjust the value to control horizontal placement */
+    /* display: flex;
+    align-items: center; */
+ } 
+
+/* .copyright i {
+    font-size: 16px;
+    margin-right: 5px;
+/* } */ 
